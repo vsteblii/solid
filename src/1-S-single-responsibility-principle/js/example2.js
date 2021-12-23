@@ -1,31 +1,26 @@
 class Email {
-  public email: string;
-
-  constructor(email: string) {
+  email;
+  constructor(email) {
     if (this.validateEmail(email)) {
       this.email = email;
     } else {
       throw new Error("Invalid email!");
     }
   }
-
-  validateEmail(email: string) {
+  validateEmail(email) {
     // done magic validation
     return !!email;
   }
 }
-
 class Person2 {
-  public name: string;
-  public surname: string;
-  public email: Email;
-
-  constructor(name: string, surname: string, email: Email) {
+  name;
+  surname;
+  email;
+  constructor(name, surname, email) {
     this.email = email;
     this.name = name;
     this.surname = surname;
   }
-
   sayHi() {
     alert("Hi!");
   }

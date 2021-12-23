@@ -4,8 +4,9 @@
   "description": "SOLID",
   "main": "index.js",
   "scripts": {
-    "s": "ROOT_S=\"./src/S-single-responsibility-principle\" && node $ROOT_S/js/index.js",
-    "s-ts": "ROOT_S=\"./src/S-single-responsibility-principle\" && tsc $ROOT_S/ts/index.ts && node $ROOT_S/ts/index.js",
+    "s": "ROOT_S=\"\" && node $ROOT_S/js/index.js",
+    "transpile": "tsc",
+    "s-ts": "node ./src/S-single-responsibility-principle/ts/example1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
