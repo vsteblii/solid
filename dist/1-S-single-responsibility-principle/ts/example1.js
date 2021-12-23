@@ -19,4 +19,4 @@ class Person1 {
         alert("Hi!");
     }
 }
-const person1 = new Person1('Petro', 'Solid', 'verysolid@gmail.com');
+const person1 = new Person1("Petro", "Solid", "verysolid@gmail.com");
