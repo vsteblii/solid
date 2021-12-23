@@ -1,8 +1,8 @@
-interface Shape {
+interface Shape1 {
     area(): number;
 }
 
-class Rectangle2 implements Shape {
+class Rectangle2 implements Shape1 {
     public width: number;
     public height: number;
 
@@ -16,7 +16,7 @@ class Rectangle2 implements Shape {
     }
 }
 
-class Circle2 implements Shape {
+class Circle2 implements Shape1 {
     public radius: number;
 
     constructor(radius: number) {
@@ -29,8 +29,8 @@ class Circle2 implements Shape {
 }
 
 class AreaCalculator2 {
-    public shapes: Shape[];
-    constructor(shapes: Shape[]) {
+    public shapes: Shape1[];
+    constructor(shapes: Shape1[]) {
         this.shapes = shapes;
     }
     getTotalArea() {

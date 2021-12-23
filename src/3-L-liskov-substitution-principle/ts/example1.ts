@@ -1,8 +1,8 @@
-interface Shape {
+interface Shape2 {
     area(): number;
 }
 
-class Rectangle3 implements Shape {
+class Rectangle3 implements Shape2 {
     public width: number;
     public height: number;
 
@@ -26,8 +26,8 @@ class ColorfullRectangle extends Rectangle3 {
 }
 
 class AreaCalculator3 {
-    public shapes: Shape[];
-    constructor(shapes: Shape[]) {
+    public shapes: Shape2[];
+    constructor(shapes: Shape2[]) {
         this.shapes = shapes;
     }
     getTotalArea() {
