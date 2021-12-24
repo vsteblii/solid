@@ -2,7 +2,7 @@
 SOLID
 
 - Transpile whole project
-yarn transpile
+-- yarn transpile
 
 - Run transpiled file
-node ./dist/....js
+-- node ./dist/....js
